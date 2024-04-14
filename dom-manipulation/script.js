@@ -45,3 +45,8 @@ againEL.addEventListener("click", () => {
   inputEl.value = "";
   messageEl.textContent = "Start guessing...";
 });
+
+document.querySelector("body").addEventListener("keydown", function (event) {
+  console.log(typeof event);
+  console.log(event);
+});
